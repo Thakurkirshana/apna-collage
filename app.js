@@ -133,6 +133,6 @@ if(num >= 90 && num <=100){
     Grade ="D";
 
 }
-console.log("Accounding to your score, your grade was :" , Grade)
+document.write("Accounding to your score, your grade was :" , Grade)
 
 
