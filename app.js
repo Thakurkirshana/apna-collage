@@ -109,30 +109,69 @@
 
 // let num = prompt('Enter the number ');
 // if( num % 5 === 0 ){
-//     console.log("kuch bhi nhi hota 5 se")
-
+//     console.log( num, "is a multiple of 5");
 // } else{
-//     console.log(num, "y=gim saui  sjha");
+//     console.log(num, "is not a multiple of 5");
 // }
 
 
-let num = prompt("enter valur")
-let Grade;
-if(num >= 90 && num <=100){
-    Grade ="A1" ;  
-}else if (num >= 70 && num <=89){
-    Grade ="A";
+// let num = prompt("enter valur")
+// let Grade;
+// if(num >= 90 && num <=100){
+//     Grade ="A1" ;  
+// }else if (num >= 70 && num <=89){
+//     Grade ="A";
 
-}else if (num >= 60 && num <=69){
-    Grade ="B";
+// }else if (num >= 60 && num <=69){
+//     Grade ="B";
 
-}else if (num >= 50 && num <=59){
-    Grade ="C";
+// }else if (num >= 50 && num <=59){
+//     Grade ="C";
 
-}else if (num >= 0 && num <=49){
-    Grade ="D";
+// }else if (num >= 0 && num <=49){
+//     Grade ="D";
 
-}
-document.write("Accounding to your score, your grade was :" , Grade)
+// }
+// document.write("Accounding to your score, your grade was :" , Grade)
+
+// let num = prompt("Enter the score !")
+// let Grade;
+// if( num >= 90 && num <= 100){
+//     Grade ="A";
+// }
+// else if( num >= 80 && num <= 90){
+//     Grade ="B";
+// }
+//  else if( num >= 70 && num <= 80){
+//     Grade ="C";
+// }
+//  else if( num >= 60 && num <= 70){
+//     Grade ="D";
+// }
+//  else if( num >= 50 && num <= 60){
+//     Grade ="E";
+// }
+//  else if( num >= 40 && num <= 50){
+//     Grade ="F";
+// }
+// if ( num >= 30 && num <= 20){
+//     Grade ="G";
+// }
+// document.write("Accounding to your score, your grade was :" , Grade)
+ 
+// let num = prompt("Enter The Value");
+// if (num % 2 === 0){
+//     document.write (num, " IS EVEN");
+// }
+//  else{
+//     document.write (num, " IS ODD");
+// }
+
+// let age = prompt("init");
+// let result = age >= 18 ? "Adults" : "Not Adults";
+// console.log(result);
+//  let name = prompt('enter the name');
+//  console.log(name)
+
 
 
