@@ -18,7 +18,7 @@
 // Looping over an Array
 // print all elements of an array
 // loop -----> iterable (string, objects, arrays)
-// for( let indx= 0; indx< arr.length; indx++){}
+// for( let i= 0; i< arr.length; i++){}
 // for-of loop
 // let heros =['ironman','superman','jogiman', 'pkman', 'kirshan']
 // for( let i=0; i<heros.length; i++){
