@@ -53,3 +53,47 @@
 //     console.log(a+i);
     
 // }
+
+// arraybfunction
+
+// arr1 = new Array("purple", "green", "yellow");
+// arr2 = ["black", "orange", "pink"];
+// console.log(arr1,arr2)
+
+// arr3 = new Array(10,10,10,44,54,32,45,24,4);
+// arr4 = [10]
+// console.log(arr3,arr4);
+// // console.log(arr4);
+// arr0= new Array("aslam walikum")
+// let arr =["Hi! There how are you",23,true];
+// console.log(arr[0],arr[1],arr[2]);
+// console.log(typeof arr[2])
+// console.log(typeof arr[1])
+// console.log(typeof arr[0])
+
+// const arr = ["hi there"];
+// arr[0] = "new value";
+// console.log(arr[0]);
+// arr = ["nope, now you are overwriting the array"];
+// cars = ["Toyota", "Renault", "Volkswagen"];
+// console.log(cars[0]);
+// cars[0] = "Tesla";
+// console.log(cars[0]);
+
+// colors = ["black", "orange", "pink"]
+// booleans = [true, false, false, true];
+// emptyArray = [];
+// console.log("Length of colors:", colors.length);
+// console.log("Length of booleans:", booleans.length);
+// console.log("Length of empty array:", emptyArray.length);
+// numbers = [12, 24, 36];
+// numbers[5] = 48;
+// console.log(numbers.length);
+// console.log("numbers", numbers);
+// favoriteFruits = ["grapefruit", "Apple","orange", "lemon"];
+// favoriteFruits.push("tangerine","banana");
+// console.log(favoriteFruits)
+
+// favoriteFruits = ["grapefruit", "Apple","orange", "lemon"];
+// favoriteFruits.splice(0,4,"tangerine","banana");
+// console.log(favoriteFruits)
