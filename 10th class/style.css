@@ -1,0 +1,50 @@
+.heading{
+    color: rgb(0, 0, 0);
+    text-align: center;
+    /* text-decoration: overline; */
+    background-color: rgb(240, 72, 72);
+    border-radius: 25px;
+}
+body{
+    background-color: rgb(9, 118, 176);color: white;
+}
+.button{
+    background-color: aqua;color: rgb(0, 0, 0);
+    border-radius: 30px;
+    text-align: center;
+    
+}
+
+p{
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    background-image: url(./2.PNG);
+color: rgb(0, 0, 0); 
+font-weight: bolder;
+
+}
+h3{
+    text-align: center;
+    text-transform: uppercase;
+    font-style: oblique;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+tr{
+text-transform: capitalize;
+}
+table{
+    text-align: center;
+    text-transform: uppercase;
+    font-style: oblique;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+div{
+   
+    text-align: center;
+    padding:auto;
+    margin: auto;
+    border-radius: auto ;
+    background-color: black;
+    
+}
