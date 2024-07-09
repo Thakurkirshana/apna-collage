@@ -53,8 +53,8 @@
 
 let heading = document.querySelector("h4");
 console.log(heading.innerText);
-let head = document.querySelector("h2");
-console.log(head.innerText);
-h2.innerText = h2.innerText + "From Apna Collage Student.";
+let doc= document.querySelector("h4");
+console.log(doc);
 
-
+let vava =document.querySelector("h4");
+console.log(vava.innerText="Amar singh chamkila is the real hero of the susity");
