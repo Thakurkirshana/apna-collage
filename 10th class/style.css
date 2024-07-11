@@ -15,14 +15,14 @@ body{
     
 }
 
-p{
+/* p{
     text-align: center;
     font-family: 'Times New Roman', Times, serif;
     background-image: url(./2.PNG);
 color: rgb(0, 0, 0); 
-font-weight: bolder;
+font-weight: bolder; */
 
-}
+/* } */
 h3{
     text-align: center;
     text-transform: uppercase;
@@ -40,11 +40,32 @@ table{
 
 }
 div{
-   
+   text-transform: uppercase;
     text-align: center;
     padding:auto;
     margin: auto;
     border-radius: auto ;
-    background-color: rgb(60, 78, 125);
+    background-color: rgb(60, 78, 125)
+
     
+}
+.box,.box1,.box2,.boxs{
+   background-color: blueviolet;
+    height: auto;
+    width: auto;
+    border: 2px groove black;
+    border-radius: 15px;
+
+}
+.myClass{
+    color: rgb(0, 0, 0);
+    background-image: url(./2.PNG);
+}
+.newClass{
+    color: rgb(252, 0, 0);
+    background-color: rgb(243, 243, 246);
+    text-align: center;
+    text-decoration: dotted;
+    text-transform: uppercase;
+    font-style: italic;
 }
