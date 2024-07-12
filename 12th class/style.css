@@ -1,0 +1,27 @@
+#bulb{
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+    background-color:white;
+    margin: auto;
+    border-style: solid;
+    border-width: 8px;
+border-color: black;
+
+
+}
+
+button{
+    border-radius: 25px;
+background-color:red;
+    margin-left:100px;
+}
+div{
+    font-size: large;
+    font-style: italic;
+    text-transform: capitalize;
+    margin: bottom 50%; ;
+    text-align: center;
+color: rgb(5, 3, 18);
+
+}
