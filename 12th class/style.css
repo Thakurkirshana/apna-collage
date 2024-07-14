@@ -1,4 +1,4 @@
-#bulb{
+/* #bulb{
     border-radius: 50%;
     height: 120px;
     width: 120px;
@@ -24,4 +24,10 @@ div{
     text-align: center;
 color: rgb(5, 3, 18);
 
+} */
+
+.btn{
+    border-radius: 25px;
+background-color:red;
+    margin-left:100px;
 }
