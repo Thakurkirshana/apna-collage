@@ -63,8 +63,14 @@ newBtn.addEventListener("click", function () {
         b = 0;
     }
 })
+// let babu = document.querySelector("#btn");
+// babu.addEventListener
+var newOk = document.querySelector("button");
+newOk.setAttribute("class",".btn");
+// // new1.setAttribute("newClass","btn")
+newOk.setAttribute("class","btn");
 
-// var newOk = document.querySelector("button");
-// newOk.setAttribute("class",".btn");
-// // // new1.setAttribute("newClass","btn")
-// newOk.setAttribute("class","btn")
+
+
+var aba = document.querySelector(".newClass");
+aba.setAttribute("class","btn");
