@@ -26,8 +26,14 @@ color: rgb(5, 3, 18);
 
 } */
 
-.btn{
+/* .btn{
     border-radius: 25px;
 background-color:red;
     margin-left:100px;
+} */
+div{
+    background-color: rgb(105, 137, 224);
+    text-transform: uppercase;
+    display:flexbox;
+    border-radius: 40px;
 }

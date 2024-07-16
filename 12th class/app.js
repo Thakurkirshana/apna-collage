@@ -41,36 +41,38 @@
 // })
 
 
-var newBtn = document.createElement("button");
-newBtn.innerText = "Click me!";
+// var newBtn = document.createElement("button");
+// newBtn.innerText = "Click me!";
 
-newBtn.style.textAlign = "center"
-document.querySelector("body").prepend(newBtn)
+// newBtn.style.textAlign = "center"
+// document.querySelector("body").prepend(newBtn)
 
-var b = 0;
-newBtn.addEventListener("click", function () {
-    if (b == 0) {
+// var b = 0;
+// newBtn.addEventListener("click", function () {
+//     if (b == 0) {
 
-        newBtn.style.color = "white"
-        newBtn.style.backgroundColor = "black"
-        console.log("click hogia ");
-        b = 1;
-    } else {
+//         newBtn.style.color = "white"
+//         newBtn.style.backgroundColor = "black"
+//         console.log("click hogia ");
+//         b = 1;
+//     } else {
 
-        newBtn.style.color = "blue"
-        newBtn.style.backgroundColor = "pink"
-        console.log('Again SnD ');
-        b = 0;
-    }
-})
+//         newBtn.style.color = "blue"
+//         newBtn.style.backgroundColor = "pink"
+//         console.log('Again SnD ');
+//         b = 0;
+//     }
+// })
 // let babu = document.querySelector("#btn");
 // babu.addEventListener
-var newOk = document.querySelector("button");
-newOk.setAttribute("class",".btn");
-// // new1.setAttribute("newClass","btn")
-newOk.setAttribute("class","btn");
+// var newOk = document.querySelector("button");
+// newOk.setAttribute("class", ".btn");
+// // // new1.setAttribute("newClass","btn")
+// newOk.setAttribute("class", "btn");
 
 
 
-var aba = document.querySelector(".newClass");
-aba.setAttribute("class","btn");
+// var aba = document.querySelector(".newClass");
+// aba.setAttribute("class", "btn");
+
+
