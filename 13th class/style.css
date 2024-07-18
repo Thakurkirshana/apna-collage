@@ -1,0 +1,60 @@
+  /* div{
+    background-color: rgb(115, 115, 205);
+border-style: solid;
+width: 100px;
+padding: 50px;
+color: white;
+border-color: black;
+text-transform: uppercase;
+margin: auto;
+  };
+ */
+
+
+/* .dark{
+background-color: rgb(209, 26, 26);
+color: white;
+  }
+.white{
+    background-color: rgb(0, 0, 0);
+    color: black;
+    border: 20px;
+}
+   */
+
+
+
+
+body{
+  color: white;
+  background-color: black;
+  text-align: justify;
+  text-decoration: solid;
+  text-transform: capitalize;
+}
+
+
+
+
+button{
+  background-color: aqua;
+  color: rgb(5, 2, 2);
+  padding: 10px;
+  border-radius: 15px;
+}
+
+.fucking2{
+background-color: white;
+color:black;
+
+}
+
+.fucking{
+  background-color:black;
+  color: white;
+ 
+  }
+   
+ 
+
+
