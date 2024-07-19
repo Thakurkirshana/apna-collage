@@ -61,14 +61,14 @@ let body = document.querySelector("body");
 let currmode = "white";
 mode.addEventListener("click", () => {
     if (currmode === "white") {
-        mode.innerHTML = "Dark mode"
+        mode.innerHTML = "Light mode"
         currmode = "dark";
         body.setAttribute("class", "fucking")
         //    body.classList.add("dark")
         //    body.classList.remove("white")
     } else {
 
-        mode.innerHTML = "Light mode"
+        mode.innerHTML = "Dark mode"
         currmode = "white";
         //     body.classList.add("white")
         //    body.classList.remove("dark")
@@ -89,6 +89,6 @@ mode.addEventListener("click", () => {
 
 
 
-var babu = document.querySelector(".hard");
-console.log(babu);
-babu.setAttribute("class", "fucking")
+// var babu = document.querySelector(".hard");
+// console.log(babu);
+// babu.setAttribute("class", "fucking")

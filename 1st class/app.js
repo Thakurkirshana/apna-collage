@@ -23,7 +23,7 @@
 // console.log(student.fullName )
 
 
-//let practice 
+// let practice 
 // const profile ={
 //     fullName :"Kirshana Thakur",
 //     isFollow : true,
@@ -33,56 +33,72 @@
 
 // };
 // console.log(profile)
-//Assigment Operators
+// Assigment Operators
 // let a = 5 ;
 // let b = 2 ;
 //   a *= 4 
-//   console.log ("a = ", a);
+//   console.log ("a 2000 = ", a);
 
 //CONDITION STATEMENT
 
-// let age = 11;
+// let age =prompt("enter your age")
 //  if( age >= 18){
 //     console.log("You Can Vote")
 //  }
 // if(age <= 18 ){
 //     console.log("You Can Not Vote")
 // }
-// let fullName = "kirshan kthakur";
-// if( fullName == "kirshan thakur"){
+// let fullName = prompt("kirshan ");
+// let name ;
+// if( fullName === "kirshan"){
 //     console.log("yoou can selelted for job")
 // }
-// if(fullName = "kirshan thakur"){
-//     console.log("you can not seleted inuniverty")
+// if(fullName === "kirshan thakur"){
+//     name="you are not selescted"
+//     console.log("you are not selescted")
 // }
-
-// let mode ="light";
+// let mode =prompt("name");
+// let color;
+// if(mode === "kirshan"){
+//     color ="you are sele";
+// }
+// if (mode === "ashok"){
+//  color ="you are not sels";}
+//      console.log(color)
+// let mode =prompt("color");
 // let color;
 // if(mode === "dark"){
 //     color ="black";
 // }
 // if (mode === "light"){
-//     color ="white";}
-//     console.log(color)
+//  color ="white";}
+//      console.log(color)
 
 // if-else statement 
 
-// let mode ="king";
+// let mode =prompt("color");
 // let color;
 // if(mode === "dark"){
 //     color ="black";
 // }
 // else{
-//     color ="pk";}
+//     color ="kirshan java";}
 //     console.log(color)
 
 // ODD AND EVEN
-// let num = 21;
-// if( num % 2=== 0){
+// let num = 22;
+// if( num % 2 === 0){
 //     console.log(num,'is even');
 
 // }else{
 //     console.log(num,'is odd');
+// }
+
+// let rain = true;
+// if(rain){
+//  console.log("** Taking my umbrella when I need to go outside *
+// } else {
+//  console.log("** I can leave my umbrella at home **");
 // }
 
 //ELSE IF STATEMENT 
