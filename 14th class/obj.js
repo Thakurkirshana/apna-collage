@@ -58,12 +58,10 @@
 //         this.brand=brand;
 //         this.mileage=mileage;
 //         this.speed=speed;
-
 //     }
 //     start() {
 //         console.log("Start the Car");
 //     };
-
 //     stop() {
 //         console.log("Stop the Car");
 //     };
@@ -82,8 +80,8 @@
 //  console.log(greendy);
 // greendy.setModel("apna collage 2003")
 // greendy.setBrand("Toyota CAlLra")
-// let xli = new ToyotaCar();
-// xli.setBrand("Toyota Suzki");
+// let xli = new ToyotaCar("Toyota Suzki","125",543);
+// xli.setBrand("Hi Speed");
 // xli.setModel(2024)
 
 
