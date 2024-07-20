@@ -83,7 +83,7 @@
 
 // let promise = new Promise ((resole,reject)=>{
 //     console.log("I am ready to Fight of Problem & Error of code.");
-//      resole("Finally Im Win the Game of The Life...!")
+//     // resole("Finally Im Win the Game of The Life...!")
 //     reject("SO sorry for the lose of Game of code , Pleace try Again the Game of Life!")
 // })
 
@@ -102,3 +102,57 @@
 //         }, 2000);
 //     })
 // }
+
+
+// Use of catch and then properti..
+
+// let pro = new Promise((res,rej) =>{
+//     let hanbhai ='kase ho'
+//  if (hanbhai== 'kase ho '){
+//     res('han bhai theek hai')
+//  }
+//  else{
+//     rej('nhi hai bahi ')
+//  }
+//    })
+//  pro.then((data)=>{
+//     console.log(data)
+//  }).catch((err )=>{
+//     console.log(err)
+//  })
+
+//  const name = new Promise((resolve,reject)=>{
+//     let tryAgain="Kesa Dia bha i"
+//     if(tryAgain=="Kesa Dia bhai"){
+//         resolve("Kesa Dia bhai tere ko !")
+//     }else{
+//         reject("kar kya rahe ho ajkal bhai jan !")
+//     }
+//  });
+//  name.then((dat)=>{console.log(dat);})
+//  .catch((error1)=>{console.log(error1);});
+// let apna = new Promise((abc,bca)=>{
+//     let haha="hahahaha123456"
+//     if(haha=="hahaha"){
+//         abc("kesa dia hahahahha12345")
+//     }else{
+//         bca("hahahh ahhaha2 3445")
+//     }
+// })
+// apna.then((data)=>{console.log(data);})
+// .catch((error)=>{console.log(error);})
+
+// const getPromise=()=>{
+//     return new Promise((res,rej)=>{
+//         console.log("I am a Promise.");
+//         // res("khamyabi suds")
+//         rej("orkya")
+//     });
+// }
+// let promise=getPromise();
+// promise.then((res)=>{
+//     console.log("promise fulfiled",res);
+// });
+// promise.catch((err)=>{
+//     console.log("apna collage ki ladki",err);
+// })
