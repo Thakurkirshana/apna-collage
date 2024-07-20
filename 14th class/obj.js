@@ -1,13 +1,42 @@
 //PROTOTYPE TOPIC OF JS.
 
-// const employee = {
-
-//     calcTex() {
-//         console.log("tax rate is 10%");
+// const kuchbhi = {
+//     ali() {
+//         console.log("apna aye ton apna ");
+//     }
+// }
+// const family = {
+//     membee() {
+//         console.log("all member of family.com");
+//     }
+// }
+// family.__proto__mem;
+// const student = {
+//     rollnum() {
+//         console.log("all student is inrolled by gr sir");
+//     }
+// }
+// const allstudent = {
+//     apna() {
+//         console.log("kirshan");
 //     },
-//     // calcTex2: function (){
-//     //     console.log("tax rate is 100%");
-//     // },
+//     num: 100,
+//     all: "sab student",
+//     rollnum() {
+//         console.log("apna collage ki class");
+//     }
+// }
+// allstudent.__proto__ = student
+
+
+// // const employee = {
+
+//     calcTex(){
+//         console.log("tax rate is 10%");
+//     }
+// calcTex2: function (){
+//     console.log("tax rate is 100%");
+// },
 // };
 // const karanArjun = {
 
@@ -18,7 +47,7 @@
 // };
 
 // const karanArjun1 = {
-//     salary: 5000,
+//     salary: 50400,
 // };
 
 
@@ -53,11 +82,12 @@
 
 
 // class ToyotaCar {
-//     constructor(brand,mileage,speed){
-//         console.log("creating new object");
+//     constructor(brand,mileage,speed,model){
+//         // console.log("creating new object");
 //         this.brand=brand;
 //         this.mileage=mileage;
 //         this.speed=speed;
+//         this.model=model;
 //     }
 //     start() {
 //         console.log("Start the Car");
@@ -72,7 +102,7 @@
 //     this.modelName = Model;
 // }
 // }
-// let fortuner = new ToyotaCar("apna Fortuner",100,120);// here consteuctor id evoke
+// let fortuner = new ToyotaCar("apna Fortuner",100,120,2024);// here consteuctor id evoke
 // console.log(fortuner);
 // fortuner.setBrand("fortuner");
 // fortuner.setModel(3002)
@@ -83,12 +113,26 @@
 // let xli = new ToyotaCar("Toyota Suzki","125",543);
 // xli.setBrand("Hi Speed");
 // xli.setModel(2024)
+// console.log(xli);
 
 
-
-// INHERITANCE INN JS 
-//inheritance is passing down properties & methodes 
+// INHERITANCE INN JS
+//inheritance is passing down properties & methodes
 //from parent class to child class.
+// 
+// class parent{
+// hi(){
+//     console.log("hello media ");
+// }
+// }
+// class child extends parent{}
+// const name = new child();
+// class person{
+
+// }
+
+
+
 // class parent{
 //     hello(){
 //         console.log("hello world nhi bolu jai shree ram bol");
@@ -166,7 +210,7 @@
 
 // Practice Qoutions
 
-// let DATA =" some important information of personsal"; 
+// let DATA =" some important information of personsal";
 // class user{
 //     constructor(name,email){
 //         this.name=name;
