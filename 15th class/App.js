@@ -156,3 +156,24 @@
 // promise.catch((err)=>{
 //     console.log("apna collage ki ladki",err);
 // })
+
+// let text = "I'm 29 years23 old4346.";
+// console.log(text.match(/\d/g));
+
+// let text1 = "Just some text kirshn";
+// document.write(text1.match(/./g));
+
+
+// {l=
+//     "name" : "Malika",
+//     "age" : 50,
+//     "profession" : "programmer",
+//     "languages" : ["JavaScript", "C#", "Python"],
+//     "address" : {
+//     "street" : "Some street",
+//     "number" : 123,
+//     "zipcode" : "3850AA",
+//     "city" : "Utrecht",
+//     "country" : "The Netherlands"
+//     }
+//    }
