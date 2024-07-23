@@ -3,18 +3,36 @@
 //   for( let i= 1; i<=7; i++){
 //     document.write ( num,"<br>")
 // }
-
+// let sum = 0;
+// let n = 10;
+// for (let i = 1; i <= 51; i++) {
+//     // sum =sum +i; 
+//     console.log("sum  apna collage ki yadin hain ye sab beta  or ky aye bay a  lorem is best prg = ",i);
+// }
+// // console.log("sum = ",i);
+    // console.log("loop has ended");
 // for( let i=1; i<=5; i++){
 //     document.write("Namasty","<br>")
 // }
-
-//Calculate sum of 1 to 5
-let sum = 0;
-for (let i=1; i <= 6; i++){
-    sum = sum +i; //sum = 0 +1
-}
-document.write("sum = ",sum, "<br>"); 
-document.write("loop has ended"); 
+// let num = "apna cilalge";
+// for (let i = 1 ; i < 6; i++){
+//     setTimeout(() => {
+//         console.log(num);
+//     }, 2000);
+// }
+// //Calculate sum of 1 to 5
+// let sum = "apna colage";
+// for (let i=1; i <= 6; i++){
+//     sum = sum +i; //sum = 0 +1
+    // setTimeout(() => {
+    //     console.log(sum);
+    // }, 2000);
+// }
+// document.write("sum = ",sum, "<br>"); 
+// document.write("www.gmail.com"); 
+// let fullname = prompt("Enter your fullname without spaces ")
+// let userName = "@" + fullname + fullname.length;
+// document.write(userName)
 // let i = 1;
 // while (i  <= 5 ){
 //     document.write("apna collage","<br>");
@@ -27,13 +45,34 @@ document.write("loop has ended");
 //     i++;
 // } while(i <=50);
 
-//for of loop
-//string and arrey to use
-// let str ="apna collage ";
-// for (let i of str){ 
-//     //iterator --> characters
-//     console.log("i=",i);
+// while (stoping candition) {
+    // all work of updatintion 
 // }
+
+// let apna =1;
+// do {
+//     console.log("koi bhi kam ho minto men karta hai loop .",apna);
+//     apna++;
+// } while (apna <= 19);
+// for-in loop is use for objects
+// let student= {
+//     name:"kirshan thakur",
+//     age:21,
+//     Grade:"A1",
+////  }
+// let gameNum=25;
+// let game =prompt("Let,s Play the game, and Find the Exist Number!");
+// while (game !== gameNum) {
+//     game=prompt(" Sorry This Number is Wrong");
+//     console.log("Congratulations, You Entered The Right Number.");
+// }
+
+// if (game==2) {
+//     console.log("Win The Game ");
+// }else{
+//     console.log("Lose The Game ! ");
+// }
+
 
 // let str ="kirshan thakur";
 // let size =0 ;
@@ -133,6 +172,6 @@ document.write("loop has ended");
 // console.log(str);
   
 
-let fullname = prompt("Enter your fullname without spaces ")
-let userName = "@" + fullname + fullname.length;
-document.write(userName)
+// let fullname = prompt("Enter your fullname without spaces ")
+// let userName = "@" + fullname + fullname.length;
+// document.write(userName)
