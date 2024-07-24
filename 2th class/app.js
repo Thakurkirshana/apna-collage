@@ -116,6 +116,7 @@
 //  }
 //  document.write('Congratulations, you entered the right number'); 
 
+//..............................................................................
 
 // STRING IN JS 
 // String is a sequence of characters used to represent text
