@@ -17,22 +17,35 @@
 // function sum(a, b) {
 //     return a + b;
 // } const arrowSum = (a, b) => {
-//     console.log(a + b);
+//     console.log(a * b);
 // }
-// // function mul(a,b){
+//  function mul(a,b){
 // return a * b;
 // }
 // let arrowMul = (a, b) => {
 //     return a * b;
 // };
-// let sum = +prompt("first value"),+prompt("second value."));
-// { console.log(sum) } P
-// // arrowMul =+prompt("enter the value");
-// // console.log(arrowMul)
-// arrowMul();
+let sum = +prompt("first value");
+{ console.log(sum) } P
+ arrowMul =+prompt("enter the value");
+ console.log(arrowMul)
+arrowMul();
 
-// let str ='Hello world to play the game of thorone';
-// console.log('Hello world to play the game of thorone');
-// 'Hello world to play the game of thorone'.toUpperCase
-// let str ="Hello world to play the game of thorone"
-// console.log(str.toLowerCase())
+let str7 ='Hello world to play the game of thorone';
+console.log('Hello world to play the game of thorone');
+'Hello world to play the game of thorone'.toUpperCase
+let str ="Hello world to play the game of thorone"
+console.log(str.toLowerCase())
+
+
+// ........................................................
+// function name(params) {
+    
+// };
+// function name(params) {
+    
+// }
+// var nName=()=>{
+//     console.log("apna ek ye goal hai wo mantly stable and knwonledgable person.");
+// };
+// functionName()
