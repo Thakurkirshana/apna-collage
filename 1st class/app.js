@@ -1,12 +1,12 @@
 // Asignment Opertors this is all the ap .
 // let a = 5;
 // let b = 4;
-// // a+=5;
+// a+=b;
 // // a-=4;
-// // a*=5;
-// // a%=4;
-// // a**=5;
-// console.log("a = ",a);
+// // a*=7;
+// // // a%=4;
+// // // a**=5;
+//  console.log("a = ",a);
 
 
 // Comparison Operators...
@@ -18,11 +18,11 @@
 
 // let a = 5;
 // let b = 6 ;
-// console.log("a==b",a==b); true value
-// console.log("a==b",a!=b); FALSE  value
-// console.log("a==b",a!==b); false vLUE
-// console.log("a = b", a > b); false 
-// console.log("a = b", a < b); true 
+// console.log("a==b",a==b); //false value
+// console.log("a==b",a!=b); //FALSE  value
+// console.log("a==b",a!==b);// false vLUE
+// console.log("a = b", a > b);// false 
+// console.log("a = b", a < b);//true 
 
 
 
@@ -43,7 +43,6 @@
 //     age : 21 ,
 //     Grade : "A1" ,
 //     isPass : true ,
-
 // };
 // student["castName"] = student["castName"] +"rajputana"
 // console.log(student.castName)
@@ -164,7 +163,7 @@
 // } 
 // else if (myAge==22) {
 //     agefact="baubali~";    
-    //     } 
+//         } 
 //     else if (myAge==27) {
 //         agefact="viky koshal ki~";    
 //         } 
@@ -229,8 +228,8 @@
 //         b = 0;
 //     }
 // })
-
-let num = prompt("koi");document.createElement("input")
+let neww=document.createElement("input")
+let num = prompt("How much Your Score And Check Your Grade!");
 
 let Grade;
 if(num >= 90 && num <=100){
@@ -244,12 +243,11 @@ if(num >= 90 && num <=100){
 }else if (num >= 50 && num <=59){
     Grade ="C";
 
-}else if (num >= 0 && num <=49){
+}else if (num >= 20 && num <=49){
     Grade ="D";
-
 }
 document.write("Accounding to your score, your grade was :" , Grade)
-document.querySelector("body").prepend(num)
+// document.querySelector("body").prepend(num)
 // let num = prompt("Enter the score !")
 // let Grade;
 // if( num >= 90 && num <= 100){

@@ -117,6 +117,7 @@
 //  document.write('Congratulations, you entered the right number'); 
 
 //..............................................................................
+// ..............................................................
 
 // STRING IN JS 
 // String is a sequence of characters used to represent text
@@ -168,11 +169,11 @@
 // let str =" IloveJs";
 // console.log(str.charAt(4));
 
-// let str =" IloveJs";
-//  str = str.replace("I","apna")
-// console.log(str);
+let str =" IloveJs";
+ str = str.replace("I","apna")
+console.log(str);
   
 
-// let fullname = prompt("Enter your fullname without spaces ")
-// let userName = "@" + fullname + fullname.length;
-// document.write(userName)
+let fullname = prompt("Enter your fullname without spaces ")
+let userName = "@" + fullname + fullname.length;
+document.write(userName)

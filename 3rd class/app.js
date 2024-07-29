@@ -6,7 +6,7 @@
 // console.log(marks[6])
 // console.log(marks.length)
 // let heros =['ironman','superman','jogiman', 'pkman', 'kirshan']
-// console.log(heros[0]='Alibaba')
+// console.log(heros[3]='Ali-Baba');
 //...........................................................
 //interview q. string are immuteable {jo change na hosky same string se 
 //value ko change karne k lai dusra string bana pari.}
