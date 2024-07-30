@@ -76,13 +76,26 @@
 //     }
 //     console.log(count);
 // }
+// let name =(str)=>{
+//     let count=0;
+//     for (const char of str) {
 
+//         if (char === "a"
+//             || char === "e"
+//             || char === "i"
+//             || char === "o"
+//             || char === "u") {
+//                 count++;
+//         }
+//     }
+//     console.log(count);
+// }
 
-var userInp =+prompt('ENTER THE VALUE',5)
-var justLast = +prompt('Enter the last value as you still find',10)
-for (var i=1; i<justLast; i++){
-    document.write(`${userInp}x ${i} =${userInp*i} <br>`)
-}
+// var userInp =+prompt('ENTER THE VALUE',5)
+// var justLast = +prompt('Enter the last value as you still find',10)
+// for (var i=1; i<justLast; i++){
+//     document.write(`${userInp}x ${i} =${userInp*i} <br>`)
+// }
 // let status = "newm";
 // let scared = true;
 // if (status === "new") {
@@ -101,3 +114,21 @@ for (var i=1; i<justLast; i++){
 
 //  math.random(11111);
 // console.log(math.random(1111)*100)
+
+//  TOPIC IS : "FOR EACH" IN JS.
+// let arr = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10.];
+// arr.forEach(function printVal(val) {
+//     console.log(val);
+// })
+// const array = ["kirshan: only one way to success,", "kumar: konsa way hai bhai ?", "kirshan: only struggle", "kumar: but i know this is hard."]
+// array.forEach((value,  arr)  => {
+//     console.log(value.toUpperCase(),arr);
+// });
+// arr.forEach(element => {
+//     console.log(element);
+// });
+let nums=[1,2,3,4,5,6,7,8,9];
+nums.forEach((num)=>{
+    console.log(num*num);
+})
+
