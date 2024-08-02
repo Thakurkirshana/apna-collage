@@ -127,8 +127,28 @@
 // arr.forEach(element => {
 //     console.log(element);
 // });
-let nums=[1,2,3,4,5,6,7,8,9];
-nums.forEach((num)=>{
-    console.log(num*num);
-})
+// let nums=[1,2,3,4,5,6,7,8,9];
+// nums.forEach((num)=>{
+//     console.log(num*num);
+// })
 
+// let nums = [1, 2, 3, 4, 5, 6, 7, 8, 9];
+// let newAar = nums.map((val) => {
+//    return val*203432;
+// })
+// console.log(newAar);
+// let abc = (num) => {
+//     console.log(num * num);
+// };
+// let arr = [1, 2, 3, 4, 5, 6, 7, 8, 9];
+// let newArr = arr.filter((val)=>{
+    // return val % 2!==0// this is the for odd number code , 2!==0/2==1
+    // return val < 3/
+// })
+// console.log(newArr);
+
+// let arr = [1, 2, 3, 4, 5,];
+// const output= arr.reduce((res,curr)=>{
+//     return res+ curr;
+// })
+// console.log(output);

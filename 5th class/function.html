@@ -18,6 +18,13 @@
             background-color: black;
             color: rgb(253, 174, 5);
         }
+        li{
+            background-color: white;
+            color: black;
+            text-align: center;
+            border-radius: 15px;
+            text-transform: capitalize;
+        }
        </style>
        <table>
         <li>Callback Function.</li>
@@ -27,7 +34,29 @@
         <li>Higher order Function</li>
         <dd>Higher order Function:
            ye wo function hoti hain jo dusri function ko as a parameter lai rahe hoti hain. 
-        </dd>
+        </dd><br><br><br>
+<li>SOME MORE ARRAY METHODS.</li>
+<dd>ARRAY Map: create a new array with the some of the opertaion
+    the value its callback returns are used to form new array.
+    <br> arr.map( callbackFnx(value,index,array))
+</dd>
+<br><br><br>
+
+<li>Filter METHODS:</li>
+<dd>filter: create a new array of elements that give true for a 
+    condition / filter.
+    Eg: all even element.
+    <br>
+    let newArr = arr.filter((val)=>{<br>
+        return val % 2===0;
+    })
+</dd><br> 
+<br><br><br>
+<li> REDUCE METHODS:</li>
+<dd>Performs some operations & reduces the array to a single value.
+    It returns that single value.
+</dd>
+
        </table>
 
     <script src="function.js"></script>
